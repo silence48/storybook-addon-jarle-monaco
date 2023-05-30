@@ -1,7 +1,7 @@
 {
   "name": "storybook-addon-jarle-monaco",
-  "version": "0.5.0",
-  "description": "storybook.js addon providing react-live preview and monaco-editor editing",
+  "version": "0.6.0",
+  "description": "storybook.js addon providing react-live preview and monaco-editor editing updated for storybook 7",
   "main": "dist/index.js",
   "files": [
     "src",
@@ -44,29 +44,29 @@
     "@react-icons/all-files": "^4.1.0",
     "copy-to-clipboard": "^3.3.1",
     "jarle": "^2.0.0",
-    "monaco-editor": "^0.33.0",
+    "monaco-editor": "^0.38.0",
     "monaco-jsx-highlighter": "^2.0.4",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react": "^17",
+    "react-dom": "^17"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.7",
-    "@storybook/addon-actions": "^6.4.12",
-    "@storybook/addon-essentials": "^6.4.12",
-    "@storybook/addon-links": "^6.4.12",
-    "@storybook/react": "^6.4.12",
+    "@babel/core": "^7.21.5",
+    "@storybook/addon-actions": "^7.0.18",
+    "@storybook/addon-essentials": "^7.0.18",
+    "@storybook/addon-links": "^7.0.18",
+    "@storybook/react": "^7.0.18",
     "@types/lodash": "^4.14.181",
-    "babel-loader": "^8.2.3",
-    "canvas-confetti": "^1.5.1",
+    "babel-loader": "^9.1.2",
+    "canvas-confetti": "^1.6.0",
     "lodash": "^4.17.21",
-    "prettier": "^2.5.1",
-    "typescript": "^4.5.5"
+    "prettier": "^2.8.8",
+    "typescript": "^4.9.3"
   },
   "peerDependencies": {
-    "@storybook/addons": "^6",
-    "@storybook/components": "^6",
+    "@storybook/addons": "^7",
+    "@storybook/components": "^7",
     "@babel/parser": "^7",
     "@babel/traverse": "^7",
-    "react": "^16"
+    "react": "^17"
   }
 }
