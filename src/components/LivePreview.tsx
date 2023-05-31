@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import { Provider, Preview, Error } from 'jarle'
 import { event } from '../constants'
-import { Channel } from '@storybook/addons'
+import { Channel } from '@storybook/channels'
 import { Props } from 'jarle/lib/Provider'
 
 export interface LivePreviewProps<TScope extends Record<string, unknown> = {}> {

@@ -1,6 +1,8 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import MonacoEditor, { OnMount } from '@monaco-editor/react'
-import { Channel } from '@storybook/addons'
+//import { Channel } from '@storybook/addons'
+import { Channel } from '@storybook/channels'
+
 import { defaultEditorOptions, event } from '../constants'
 import EditorWrapper from './EditorWrapper'
 import applyJsxHighlighter from '../utils/apply-jsx-highlighter'

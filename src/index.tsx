@@ -1,8 +1,8 @@
 import React from 'react'
 import LivePreview, { LivePreviewProps } from './components/LivePreview'
 import Playground from './components/Playground'
-import addons from '@storybook/addons'
-import { Story } from '@storybook/api'
+import { addons } from '@storybook/manager-api'
+import { Story } from '@storybook/react'
 import { LiveEditConfig } from './types'
 
 export { LivePreview, Playground }
